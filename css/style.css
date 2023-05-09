@@ -38,28 +38,6 @@ align-items: center ;
 }
 
 
-/* 
-.minhead ul li a  ol{
-    
-    visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    }
-    .minhead ul li a  ol li {
-        
-        list-style: none;
-        margin-right: 114px;
-    }
-    .minhead ul li a  ol li a {
-        text-decoration: none;
-        color: white;
-        font-size: 13px;
-        font-family: sans-serif;
-    } */
-
-
-
 
 
 
@@ -208,6 +186,10 @@ background-color: #e12503;
      font-family: sans-serif;
      color: white;
     }
+
+
+
+
     .headerbotom .bpart3 {
         
         width: 33.3%;
