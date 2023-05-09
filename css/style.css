@@ -216,7 +216,7 @@ background-color: #e12503;
         display: flex;
         width: 100%;
         height: 600px;
-        background-image: url(/css/img/slider.jpg);
+        background-image: url(css/img/slider.jpg);
     }
     .banner .part1 , .part2 {
 width: 50%;
@@ -674,7 +674,7 @@ margin-top: 23px;
 .gift {
     width: 100%;
     height: 400px;
-    background: url(/css/img/spectacles-on-book.jpg);
+    background: url(css/img/spectacles-on-book.jpg);
 
 }
 .gft {
@@ -878,7 +878,7 @@ footer {
 
     display: flex;
     flex-direction: column;
-   background-image: url(/css/img/footer_1.jpg);
+   background-image: url(css/img/footer_1.jpg);
    
     background-color: #242424;
     width: 100%;
