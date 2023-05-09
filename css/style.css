@@ -33,7 +33,9 @@ align-items: center ;
     font-size: 13px;
     font-family: sans-serif;
 }
-
+.minhead ul li a:hover {
+    color: red;
+}
 
 
 
