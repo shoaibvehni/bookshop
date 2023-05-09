@@ -38,7 +38,7 @@ align-items: center ;
 }
 
 
-
+/* 
 .minhead ul li a  ol{
     
     visibility: hidden;
@@ -49,14 +49,14 @@ align-items: center ;
     .minhead ul li a  ol li {
         
         list-style: none;
-        margin-right: 4px;
+        margin-right: 114px;
     }
     .minhead ul li a  ol li a {
         text-decoration: none;
         color: white;
         font-size: 13px;
         font-family: sans-serif;
-    }
+    } */
 
 
 
