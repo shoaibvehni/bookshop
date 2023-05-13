@@ -4,6 +4,7 @@
 }
 
 body {
+
     width: 100%;
 }
 
@@ -38,30 +39,6 @@ align-items: center ;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .midleheader {
     display: flex;
     width: 100%;
@@ -74,7 +51,7 @@ align-items: center ;
         display: flex;
         align-items: center;
     
-   width: 33.3%;
+   width: 30%;
     }
     
     .midleheader .part1 .fa-solid {
@@ -90,7 +67,7 @@ align-items: center ;
         align-items: center;
      
     height: 110px;
-        width: 33.4%;
+        width: 30%;
     }
 
 
@@ -113,7 +90,7 @@ align-items: center ;
 
 
     height: 110px;
-        width: 33.3%;
+        width: 35%;
     }
     
 
@@ -142,9 +119,8 @@ align-items: center ;
     .part3 a  .fa-search{
         color: black;
         font-size: 24px;
-        margin-left: 22px;
-        margin-right: 15px;
-    }
+    margin-left:15px;
+}
     
     .headerbotom {
         display: flex;
@@ -155,13 +131,29 @@ background-color: #e12503;
     }
     .headerbotom .bpart1 {
         
-        width: 33.3%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    
+    
+    .headerbotom .bpart1 a  {
+        margin: 15px;
+color: white;
+font-size: 15px;
+padding: 5px 10px;
+background-color: #242424;
+font-family:'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+    }
+
 
 
     .headerbotom .bpart2 {
         
-        width: 33.4%;
+        width: 40%;
 
         display: flex;
         justify-content: center;
@@ -182,7 +174,7 @@ background-color: #e12503;
     }
     .headerbotom .bpart2 ul li a{
      text-decoration: none ;
-     font-size: 16px;
+     font-size: 15px;
      font-family: sans-serif;
      color: white;
     }
@@ -192,7 +184,7 @@ background-color: #e12503;
 
     .headerbotom .bpart3 {
         
-        width: 33.3%;
+        width: 20%;
     }
 
     .banner
@@ -200,10 +192,10 @@ background-color: #e12503;
         display: flex;
         width: 100%;
         height: 600px;
-        background-image: url(css/img/slider.jpg);
+        background-image: url(/css/img/slider.jpg);
     }
     .banner .part1 , .part2 {
-width: 50%;
+width: 40%;
     }
     .banner .part1 {
         display: flex;
@@ -232,11 +224,11 @@ width: 50%;
     }
 
 .slider {
+    
     display: grid;
     grid-template-columns: auto auto auto auto;
-
     background-color: #f7f7f7;
- width: 100%;
+ width: 99%;
  height: 130px;
  
 
@@ -281,7 +273,7 @@ background-color: white;
 }
 .main .headingpart
 {
-    width: 100%;
+    
     
     display: flex;
     justify-content: center;
@@ -357,26 +349,26 @@ background-color: white;
 .main .carditem {
     margin-top: 65px;
     margin-left: 22px;
-    margin-right: 22px;
+    
     display: grid;
 grid-template-columns: auto auto auto auto;
-grid-column-gap: 33px;
-grid-row-gap: 69px;
+grid-column-gap: 23px;
+grid-row-gap: 59px;
 }
 .carditem .card img{
-    height: 500px;
-    width: 330px;
+    height: 300px;
+    width: 230px;
 }
 .carditem .card p{
     color: #787a88;
-    font-size: 22px;
-    margin-top: 13px;
-    margin: 12px;
+    font-size: 16px;
+    margin-top: 9px;
+    
 }
 .carditem .card a {
-    margin: 12px;
+    
     text-decoration: none;
-font-size: 25px;
+font-size: 19px;
 color: black;
 }
 
@@ -389,7 +381,7 @@ color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 302px;
+    margin-top: 102px;
     width: 100%;
     height: 580px;
 background-color: #f2d5cf;
@@ -432,9 +424,6 @@ font-size: 19px;
 
 }
 
-.profiles{
-    width: 100%;
-}
 .profiles .strat {
     margin-top: 95px;
     display: flex;
@@ -464,62 +453,55 @@ font-size: 19px;
 
 }
 .div1 {
-    position: relative;
-    top: -28PX;
-    margin-top: 65px;
-    margin-left: 22px;
-    margin-right: 22px;
     display: grid;
 grid-template-columns: auto auto auto auto;
 grid-column-gap: 33px;
 grid-row-gap: 69px;
+padding-left: 14px;
 }
 .div1 .card1 img{
-    height: 350px;
-    width: 240px;
+    height: 170px;
+    width: 150px;
 }
 .div1 .card1 p{
     color: #787a88;
-    font-size: 22px;
+    font-size: 12px;
     margin-top: 13px;
     margin: 12px;
 }
 .div1 .card1 a {
     margin: 12px;
     text-decoration: none;
-font-size: 25px;
+font-size: 12px;
 color: black;
 }
 
 .div1 .card1 a:hover {
     color: #e12503;
 }
-.div2{
-    
+.div2 img{
+    width: 250px;
     margin-top: 65px;
 }
 .div3 {
     
-    margin-top: 65px;
+    margin-top: 165px;
     
-    position: relative;
-    top: -82px;
 display: grid;
 grid-template-columns: auto;
 }
 .div3 .fulname {
-    margin-left: 23px;
+    margin-left: 13px;
     display: flex;
-    width: 100%;
+    
 }
 .div3 .fulname .name {
 
-width: 70%;
+width: 60%;
 
 }
 .div3 .fulname .auther {
-    width: 30%;
-margin-left: 120px;
+    width: 20%;
 }
 
 
@@ -537,11 +519,11 @@ margin-left: 120px;
     }
     .div3 .para {
         margin-top: 43px;
-    margin-left: 23px;
+    margin-left: 3px;
     }
 
     .div3 .para p{
-        font-size: 17px;
+        font-size: 11px;
 
     }
 
@@ -561,12 +543,12 @@ margin-left: 120px;
     display: flex;
     
     background-color: #f4f1f4;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 670px;
-    width: 100%;
+  
 }
 .ofer1 {
-    width: 50%;
+    width: 40%;
 }
 .ofer2 {
     display: flex;
@@ -621,10 +603,10 @@ color: #e12503  ;
 .deals {
     
     margin-top: 100px;
-    width: 100%;
+    
 display: grid;
 grid-template-columns: auto auto auto auto;
-grid-column-gap: 11px;
+grid-column-gap: 61px;
 grid-row-gap: 23px;
 
 }
@@ -634,12 +616,12 @@ grid-row-gap: 23px;
     flex-direction: column;
 }
 .deals .card img {
-    height: 574px;
-    width: 350px;
+    height: 374px;
+    width: 220px;
 }
 .deals .card p {
 margin-top: 23px;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: lighter;
     color: #676767;
 }
@@ -648,7 +630,7 @@ margin-top: 23px;
 
     text-decoration: none;
     margin: 1px;
-    font-size: 27px;
+    font-size: 17px;
 
 }
 .deals .card a:hover {
@@ -656,9 +638,8 @@ margin-top: 23px;
 }
 
 .gift {
-    width: 100%;
     height: 400px;
-    background: url(css/img/spectacles-on-book.jpg);
+    background: url(/css/img/spectacles-on-book.jpg);
 
 }
 .gft {
@@ -690,13 +671,12 @@ padding: 15px;
     color: white;
     }
     .news {
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .news p {
-        margin-top: 159px;
+        margin-top: 109px;
         font-size: 45px;
     }
 
@@ -715,57 +695,52 @@ padding: 15px;
 
 }
 .news .cards .card img{
-    width: 450px;
+    width: 250px;
 }
 
 .news .cards .card a{
     text-decoration: none;
     color: black;
-    margin: 13px;
-    font-size: 25px;
+    margin-top: 12px;
+    font-size: 19px;
 
 }
 .news .cards .card a:hover {
     color: red;
 
 }
-.news .cards .card .paraph {
-    display: flex;
-    align-items: center ;
-    justify-content: center;
-}
-.news .cards .card .paraph p{
 
-    text-align: start;
-    margin: 0px;
-    font-size: 18px;
+.news .cards .card .paraph p{
+margin: 0;
+width: 260px;
+    font-size: 12px;
 color: #676767;
 }
 .news .cards .card button {
     margin-left: -233px;
     background-color: red;
-    padding: 13px 23px 13px 23px ;
-margin-top: 25px;
+    padding: 10px 12px 10px 12px ;
+margin-top: 15px;
 border: none;
 }
 .news .cards .card button a{
     text-decoration: none;
-    font-size: 19px;
+    font-size: 12px;
     color: white;
 }
 .otdiv {
-    margin-top: 34px;
+    margin-top: 14px;
     display: flex;
     width: 100%;
 }
 .one {
-    width: 50%;
+    width: 40%;
     display: flex; 
     align-items: center;
     justify-content: center;
 }
 .two {
-    width: 50%;
+    width: 40%;
 
 
     display: flex; 
@@ -774,18 +749,22 @@ border: none;
 
 
 .one span   , .two span {
-    margin-left:    43px;
+    margin-left:    23px;
 }
+.one span   , .two span , .one    , .two {
+    font-size: 12px;
+}  
 
 
 .logos {
-    margin-top: 125px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     height: 200px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95%;
+    width: 90%;
     -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -794,19 +773,19 @@ border: none;
 
 .logos a img {
     height: 104px;
-    margin: 83px;
+    margin: 73px;
 }
 .logos a img:hover {
     transition-duration: 2s;
     height: 144px;
 }
 .searchbar{
-
+margin-bottom: 25px;
 display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
-    width: 100%;
+ width: 1300px;
     background-color: #f7f7f7;
 }
 
