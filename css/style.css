@@ -105,8 +105,8 @@ align-items: center ;
     }
     
     .part3 button a #en {
-        font-size: 18px;
-        padding: 6px 3px 6px 12px;
+        font-size: 8px;
+        padding: 1px;
         color: white;
         background-color: #e12503;
     }
